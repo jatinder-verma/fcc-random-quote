@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Patua+One');
+
+body {
+    background: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/172015.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid black;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+.heading {
+    color: white;
+}
+
+.quotewrap {
+    color: #fff;
+    height: 200px;
+    padding-top: 20px;
+    font-family: 'Bellefair', serif;
+}
+
+.btn-quote,
+.btn-tweet {
+    border: 2px solid #0A4700;
+    background-color: #23FE00;
+}
+
+.btn-quote:focus,
+.btn-tweet:focus {
+    outline: none;
+}
+
+.buttonhover:hover {
+    background-color: #64c4d4;
+    color: #ffffff;
+}
+
+.copyright {
+    color: #FF4900;
+    margin-top: 100px;
+}
